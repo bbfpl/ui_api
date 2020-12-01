@@ -10,9 +10,11 @@
 `UI::DB('表名')->where($where)->row();`
 
 获取所有数据
+
 `UI::DB('表名')->where($where)->orderBy('id', 'DESC')->get();`
 
 获取分页数据 $num=每页多少条数据 $page=当前第几页
+
 `UI::DB('表名')->where($where)->orderBy('id', 'DESC')->paginate($num, $page);`
 
 **添加**
