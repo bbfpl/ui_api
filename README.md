@@ -1,7 +1,7 @@
-#### 路由
+# 路由
 `UI::route('GET|POST|PUT|DELETE /path', [\module\demo\Index::class, 'index']);`
 
-#### mysql使用
+# mysql使用
 
 **1,查询**
 
@@ -32,7 +32,7 @@ var_dump($id); //返回插入数据的id
 
 `UI::DB('表名')->where($where)->delete();`
 
-####  request
+#  request
 
 获取提交数据
 不管提交post还是get都是用input来获取数据
@@ -50,7 +50,7 @@ var_dump($id); //返回插入数据的id
     var_dump($name); //张三
 
 ```
-####  config配置文件
+#  config配置文件
 
 **1,设置**
 
